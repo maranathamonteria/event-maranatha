@@ -50,8 +50,13 @@ En la pantalla de configuración del proyecto:
 
 #### Variable 1: DATABASE_URL
 - **Name**: `DATABASE_URL`
-- **Value**: Pega la connection string de Neon que copiaste
+- **Value**: 
+  ```
+  postgresql://neondb_owner:npg_V14aNIEDQjSp@ep-polished-bird-ah2ud3n6-pooler.c-3.us-east-1.aws.neon.tech/neondb?sslmode=require
+  ```
 - **Environments**: ✅ Production, ✅ Preview, ✅ Development
+
+**Nota**: Este es el connection string de tu proyecto Neon. Si necesitas cambiarlo, consúltalo en [Neon Console](https://console.neon.tech).
 
 #### Variable 2: NEXTAUTH_SECRET
 - **Name**: `NEXTAUTH_SECRET`
